@@ -114,13 +114,13 @@ header{
 
 .menu{
     max-width: 1400px;
-    width: 90%;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 8px 40px;
     margin: auto;
 }
 
@@ -140,6 +140,12 @@ header{
     font-weight: bold;
 }
 
+.menu--btnwpp{
+    border: 2px solid var(--clr-roxo-medio);
+    border-radius: 20px;
+    padding: 3px 3px;
+}
+
 .menu__itens:hover{ color: var(--clr-roxo-medio);}
 
 
@@ -152,31 +158,28 @@ header{
 /**********************************/
 
 .section-bg{
-    background-image: linear-gradient(#1a91d7, gray), url(/img/bglarge.jpg);
+    background-image: url(/img/bglarge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
 }
 
 .section{
     max-width: 1400px;
-    width: 80%;
+    width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    padding: 40px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1px 10px;
     margin: auto;
 }
 
 .section__esq{
-    width: 100%;
-    height: 90vh;
+    width: 50%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     padding: 5px 15px;
-    margin: auto;
     color: var(--clr-branco);
 }
 
@@ -214,9 +217,9 @@ header{
 }
 
 .section__dir{
-    display: none;
-    display: hidden;
+    width: 50%;
 }
+
 
 /**********************************/
 /*            Serviços
